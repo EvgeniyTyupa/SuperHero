@@ -1,0 +1,72 @@
+.heroes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    color: maroon;
+}
+.panel{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.panel button{
+    float: right;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid maroon;
+    font-weight: bold;
+    color: maroon;
+    cursor: pointer;
+    outline: none;
+    margin-right: 25px;
+    color: white;
+}
+.heroContainer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.panel p{
+    align-self: flex-end;
+    margin-right: 15px;
+}
+.pagination{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 45px;
+}
+.pagination span{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid maroon;
+}
+.selectedPage{
+    font-weight: bold;
+    background-color: maroon;
+    color: white;
+}
+.UI{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+
